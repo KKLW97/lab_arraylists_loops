@@ -94,6 +94,7 @@ public class Runner {
             System.out.println(sum2);
         }
 
+// Attempt using FOR EACH method
         // int sum2 = 0;
         // for (int number : numbers) {
         //     sum2 += number;
