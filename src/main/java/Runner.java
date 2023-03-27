@@ -84,41 +84,18 @@ public class Runner {
 
 //        5. Print the sum of the numbers...
 //           ...except the number 13 is unlucky, so it does not count...
-            int sum2 = 0;
-            for (int i= 0; i < numbers.size(); i++) {
-                sum2 = sum2 + numbers.get(i);
-                if (i == 8){
-                    continue;
-                }
-            }
-            System.out.println(sum2);
-        }
-
-// Attempt using FOR EACH method
-        // int sum2 = 0;
-        // for (int number : numbers) {
-        //     sum2 += number;
-        //     if (number == 13){
-        //         continue;
-        //     } //why does the continue statement not work
-        // }
-        // System.out.println(sum2);
-
-
 //           ...and numbers that come immediately after a 13 also do not count.
 //
 //          So [2, 7, 13, 2] would have sum of 9.
 
-        //      int sum3 = 0;
-        //     for (int i= 0; i < numbers.size(); i++) {
-        //         sum3 = sum3 + numbers.get(i);
-        //         if (i == 7){
-        //             break;
-        //         }
-        //         }
-        //         System.out.println(sum3);
-        //     }
-//    }
+              int sum2 = 0;
+             for (int i= 0; i < numbers.size(); i++) {
+                 sum2 = sum2 + numbers.get(i);
+                 if (i == 7){
+                     break;
+                 }
+                 }
+                 System.out.println(sum2);
+             }
+    }
 
-    }
-    }
